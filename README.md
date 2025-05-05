@@ -79,3 +79,47 @@ nc -zv google.com 443
 
 - [ ] Use curl or httpie to simulate requests to a local or remote API.
 - [ ] Use tcpdump or wireshark to sniff packets locally (optional advanced).
+
+### 🔧 03. Git & Version Control
+
+#### 🧠 Why it’s important:
+
+DevOps engineers manage IaC, pipelines, scripts, and configs. All of that lives in Git.
+
+##### 🔍 Key Commands:
+
+```bash
+git init
+git clone <repo>
+git status
+git add .
+git commit -m "Initial commit"
+git push origin main
+git pull
+```
+
+##### ✅ Practice:
+
+01. Create a GitHub repo called `devops-sandbox`
+02. Clone it locally
+03. Write a bash script in it (backup.sh)
+04. Push changes
+
+##### 🛠 Task:
+
+- [ ] Create branches (`git checkout -b feature/xyz`)
+- [ ] Make a pull request via GitHub
+- [ ] Merge and resolve conflicts
+
+## 📘 Resources to Study:
+
+- [Learn Shell - Interactive](https://www.learnshell.org/)
+- [Git Book (Pro Git)](https://git-scm.com/book/en/v2)
+- [LinuxCommand.org](http://linuxcommand.org/)
+
+## ✅ Deliverables for Stage 1:
+
+- [ ] Daily automated backup shell script with cron
+- [ ] GitHub repo with your Linux/Git practice
+- [ ] Hands-on use of curl, grep, awk, and sed
+- [ ] Notes on 10 essential Linux commands
