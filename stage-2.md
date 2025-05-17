@@ -148,7 +148,7 @@ Here are hands-on challenges to strengthen your understanding:
 docker run -d -p 8080:80 nginx
 ```
 
-- ✅ Visit http://localhost:8080 to confirm it works.
+- ✅ Visit <http://localhost:8080> to confirm it works.
 
 - 🔄 Use docker stop and docker rm to clean up afterward.
 
@@ -193,7 +193,7 @@ docker run -d -p 8080:80 nginx
     docker run -p 5000:5000 flask-demo
     ```
 
-    ✅ Visit http://localhost:5000
+    ✅ Visit <http://localhost:5000>
 
 ### 🔹 Task 3: Docker Compose a Multi-Container App
 
